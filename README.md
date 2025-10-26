@@ -81,7 +81,7 @@ A production-quality webhook event relay system built for the Algohire Hackathon
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
+git clone <https://github.com/aryankuttarmare14/Algohire_assignment>
 cd algohire_assignment
 ```
 
@@ -337,41 +337,6 @@ Use these public webhook testing services:
 - `job_created` - New job posted
 - `candidate_updated` - Candidate profile updated
 - `application_submitted` - New application received
-
-## 🚧 Future Enhancements
-
-### Planned Features
-- [ ] Rate limiting per webhook
-- [ ] Webhook payload transformation/filtering
-- [ ] GraphQL API endpoint
-- [ ] Real-time event streaming (WebSocket)
-- [ ] Advanced retry strategies (custom delays)
-- [ ] Webhook versioning
-- [ ] Event deduplication across multiple handlers
-- [ ] Analytics and reporting dashboard
-- [ ] Webhook testing tool
-- [ ] Custom event schemas with validation
-- [ ] Multi-tenant support
-- [ ] Event replay functionality
-- [ ] Dead letter queue for permanently failed deliveries
-- [ ] API key authentication
-- [ ] Role-based access control
-- [ ] Audit logging
-- [ ] Prometheus metrics integration
-- [ ] Distributed tracing support
-
-### Performance Optimizations
-- [ ] Connection pooling optimization
-- [ ] Batch webhook delivery
-- [ ] Caching improvements
-- [ ] Horizontal scaling support
-- [ ] Event archiving strategy
-
-### Monitoring & Observability
-- [ ] Integration with monitoring tools (Datadog, New Relic)
-- [ ] Custom alerting rules
-- [ ] Performance dashboard
-- [ ] Error tracking (Sentry integration)
 
 ## 🤝 Contributing
 
