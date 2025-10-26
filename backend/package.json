@@ -1,0 +1,25 @@
+{
+  "name": "algohire-webhook-relay-backend",
+  "version": "1.0.0",
+  "description": "Backend for Algohire Webhook Event Relay System",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/utils/seed.js",
+    "test-webhook": "node src/utils/test-webhook.js"
+  },
+  "keywords": ["webhook", "event-relay", "algohire"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
